@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>cv</title>
+</head>
+<body>
+<header>
+    <div class="header__burger burger">
+        <span class="burger__line burger__line_first"></span>
+        <span class="burger__line burger__line_second"></span>
+        <span class="burger__line burger__line_third"></span>
+    </div>
+    <nav class="header__nav">
+        <ul class="header__list">
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#contacts">Contacts</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#experience">Experience</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#aboutMe">About Me</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#education">Education</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#skills">Skills</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#languages">Languages</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link js-scroll" href="#codeExample">Code Example</a>
+            </li>
+        </ul>
+        <div class="header__nav-close">
+            <span class="header__nav-close-line"></span>
+            <span class="header__nav-close-line"></span>
+        </div>
+    </nav>
+    <div class="header__wrap">
+        <img src="img/UserPic.jpg" alt="UserPic">
+        <div class="head">
+            <h1 class="name">Aleksey Shishkov</h1>
+            <h3 class="position">FRONT-END DEVELOPER</h3>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="wrap_content">
+        <section class="wrap_left">
+            <div class="wrap_content-left">
+                <article class="left_content">
+                    <h2 id="contacts">Contacts</h2>
+                    <ul class="contacts">
+                        <li>
+                            <h4>Location :</h4>
+                            <p>Minsk</p>
+                        </li>
+                        <li>
+                            <h4>Phone :</h4>
+                            <p>+375447443154</p>
+                        </li>
+                        <li>
+                            <h4>Email :</h4>
+                            <p><a class="contactsExperienceLink" href="https://aleksejmocny@gmail.com">E_mail</a></p>
+                        </li>
+                        <li>
+                            <h4>GitHub :</h4>
+                            <p><a class="contactsExperienceLink" href="https://github.com/alexshishkov">Alexshishkov</a></p>
+                        </li>
+                    </ul>
+                    <h2 id="experience">Experience</h2>
+                    <ul class="educational materials">
+                        <li>
+                            <h4>Books :</h4>
+                            <p>Head First JavaScript Programming</p>
+                            <p>Head First JavaScript Programming</p>
+                        </li>
+                        <li>
+                            <h4>JavaScript :</h4>
+                            <p><a class="contactsExperienceLink" href="https://learn.javascript.ru/js">learn.javascript</a></p>
+                            <h4>React/Redux :</h4>
+                            <p><a class="contactsExperienceLink" href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">IT-kamasutra</a></p>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section class="wrap_right">
+            <div class="right_content">
+                <h2 class="right_title" id="aboutMe">About Me</h2>
+                <p class="infoAboutMe">I am 30 years old, I have always worked outside of IT,
+                    made music, but decided to change the profile of work and hobby.
+                    He studied on the Internet himself, created a landing page for his current employer,
+                    participated in the development team in the startup competition from the ISsoft company.</p>
+                <h2 class="right_title" id="education">Education</h2>
+                <p class="infoAboutMe">
+                    College of Building Materials Industry :<br>
+                    technician economist
+                </p>
+                <h2 class="right_title" id="skills">Skills</h2>
+                <ul class="infoSkills">
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">React</li>
+                    <li class="skill">Redux</li>
+                    <li class="skill">Git</li>
+                </ul>
+                <h2 class="right_title" id="languages">Languages</h2>
+                <p class="language">Russian (native)</p>
+                <p class="language">English (A1)</p>
+                <h2 class="right_title" id="codeExample">Code Example</h2>
+                <pre>
+                    <code>
+ function checkAge(age) {
+    if (age > 18) {
+    return true;
+    } else {
+    return confirm('Parents allowed?');
+    }
+    }
+                    </code>
+                </pre>
+                <footer>
+                    <div class="dataCreatedDoks">Created in 2021</div>
+                    <div class="footerLinks">
+                        <a class="footerLink" href="https://rs.school/js/">
+                            <img class="footerLinkRSSchool"
+                                 src="img/rs_school_js.svg" width="250"
+                                 height="250" alt="RsSchool"></a>
+                        <a class="footerLink" href="https://github.com/alexshishkov">
+                            <img class="footerLinkGitHub"
+                                 src="img/gitHub.png"
+                                 width="160" height="80"
+                                 alt="GitHub"></a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </div>
+</main>
+<script src="./js/main.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
